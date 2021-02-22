@@ -23,4 +23,4 @@ console.log(produto(2,3))
 // }
 
 const convToCelsius = (fahrenheit) => (5/9) * (fahrenheit -32)
-console.log(convToCelsius(78))
+console.log(convToCelsius(100))
