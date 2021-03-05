@@ -6,8 +6,14 @@
     console.log(clientX, clientY);
 }
 
+// const { clientX, clientY } = event
+// console.log(clientX, clientY)
+
+
 //A partir do objeto abaixo, instancie apenas uma variável que receba ​first utilizando destructuring
 const obj = { first: 'Jane', last: 'Doe' };
+const { first } = obj
+console.log(first)
 
 //A partir do objeto abaixo, instancie uma variavel que receba ​name​ e outra para colors
 company = {
@@ -22,3 +28,7 @@ company = {
         },
     },
 };
+
+const { name, products , colors } = company
+
+console.log ( name, products, colors )
